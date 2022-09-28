@@ -1,4 +1,4 @@
-# Web3RSVP-frontend
+# EventMaster-frontend
 
 ## Technologies
 Filecoin & IPFS
