@@ -20,7 +20,7 @@ const { chains, provider } = configureChains(
 );
 
 const { connectors } = getDefaultWallets({
-  appName: "web3rsvp",
+  appName: "EventMaster",
   chains,
 });
 
