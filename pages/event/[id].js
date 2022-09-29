@@ -67,7 +67,7 @@ function Event({ event }) {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <Head>
-        <title>{event.name} | web3rsvp</title>
+        <title>{event.name} | EventMaster</title>
         <meta name="description" content={event.name} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
