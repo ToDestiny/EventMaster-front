@@ -1,5 +1,5 @@
 {
-  "name": "EventMaster-front",
+  "name": "EventMasterFront",
   "version": "1.0.0",
   "description": "",
   "main": "apollo-client.js",
@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@apollo/client": "^3.6.2",
-    "@headlessui/react": "^1.4.2",
-    "@heroicons/react": "^1.0.5",
+    "@headlessui/react": "^1.7.3",
+    "@heroicons/react": "^1.0.6",
     "@rainbow-me/rainbowkit": "^0.2.2",
     "ethers": "^5.6.6",
     "graphql": "^16.5.0",

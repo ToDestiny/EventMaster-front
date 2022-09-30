@@ -1,11 +1,6 @@
 import Head from "next/head";
-import styled from "styled-components";
+import Image from "next/image";
 import wallpaperImg from "../assets/img/nft-wallpaper.png";
-
-const Wallpaper = styled.img`
-  height: 10em;
-  width: 100%;
-`;
 
 export default function Landing({ children }) {
   return (
@@ -29,8 +24,14 @@ export default function Landing({ children }) {
             after!
           </p>
         </div>
+        <div className="rounded-full lg:absolute lg:inset-y-25 lg:right-0 lg:w-2/5 bg-black">
+          <Image
+            className="rounded-full h-auto w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
+            alt="Landing page image"
+            src={wallpaperImg}
+          />
+        </div>
       </section>
-      <Wallpaper src={wallpaperImg} />
       <section className="py-12">{children}</section>
     </div>
   );
