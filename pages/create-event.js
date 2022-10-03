@@ -108,7 +108,7 @@ export default function CreateEvent() {
         <title>Create your event | EventMaster</title>
         <meta
           name="description"
-          content="Create your virtual event on the blockchain"
+          content="Sell tickets for your event on the blockchain"
         />
       </Head>
       <section className="relative py-12">
@@ -208,9 +208,9 @@ export default function CreateEvent() {
                   htmlFor="max-capacity"
                   className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
                 >
-                  Max capacity
+                  Total number of tickets
                   <p className="mt-1 max-w-2xl text-sm text-gray-400">
-                    Limit the number of spots available for your event.
+                    How many tickets in total do you want to sell?
                   </p>
                 </label>
                 <div className="mt-1 sm:mt-0 sm:col-span-2">
@@ -232,10 +232,9 @@ export default function CreateEvent() {
                   htmlFor="refundable-deposit"
                   className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
                 >
-                  Refundable deposit
+                  Ticket price
                   <p className="mt-1 max-w-2xl text-sm text-gray-400">
-                    Require a refundable deposit (in MATIC) to reserve one spot
-                    at your event
+                    Price of a ticket (in MATIC)
                   </p>
                 </label>
                 <div className="mt-1 sm:mt-0 sm:col-span-2">
